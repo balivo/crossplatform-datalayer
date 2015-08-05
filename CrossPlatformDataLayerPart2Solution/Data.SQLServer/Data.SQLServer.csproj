@@ -31,6 +31,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
+    <Reference Include="System.configuration" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -39,7 +40,20 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Daos\BaseDao.cs" />
+    <Compile Include="Daos\CidadeDao.cs" />
+    <Compile Include="Daos\PaisDao.cs" />
+    <Compile Include="Daos\UnidadeFederacaoDao.cs" />
+    <Compile Include="DBExecution.cs" />
+    <Compile Include="DBParameter.cs" />
+    <Compile Include="Packages.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Data\Data.csproj">
+      <Project>{aa074117-10ac-4990-b5ec-472969f8784f}</Project>
+      <Name>Data</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
