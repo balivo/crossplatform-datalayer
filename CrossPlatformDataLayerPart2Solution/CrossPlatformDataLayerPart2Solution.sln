@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Presentation", "1 - Presentation", "{7D64EEA2-8EB0-47BD-A42C-DC2872D35ADD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Domain", "2 - Domain", "{CAFBCD1F-D371-40A8-92B8-F65679182261}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Data", "3 - Data", "{28CD5214-CBE4-4540-8A1A-0B887E2698F2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 - Infrastructure", "4 - Infrastructure", "{E475E1EC-0131-49BF-9D7F-7B84F2A502DF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "99 - SQL Scripts", "99 - SQL Scripts", "{BAFAECE6-F0A6-442B-80B0-A3824CD566A0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Data", "Data\Data.csproj", "{AA074117-10AC-4990-B5EC-472969F8784F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Data.SQLServer", "Data.SQLServer\Data.SQLServer.csproj", "{D561A0F6-BADD-45F1-AC70-2F508018B055}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AA074117-10AC-4990-B5EC-472969F8784F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA074117-10AC-4990-B5EC-472969F8784F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA074117-10AC-4990-B5EC-472969F8784F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA074117-10AC-4990-B5EC-472969F8784F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D561A0F6-BADD-45F1-AC70-2F508018B055}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D561A0F6-BADD-45F1-AC70-2F508018B055}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D561A0F6-BADD-45F1-AC70-2F508018B055}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D561A0F6-BADD-45F1-AC70-2F508018B055}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{AA074117-10AC-4990-B5EC-472969F8784F} = {28CD5214-CBE4-4540-8A1A-0B887E2698F2}
+		{D561A0F6-BADD-45F1-AC70-2F508018B055} = {28CD5214-CBE4-4540-8A1A-0B887E2698F2}
+	EndGlobalSection
+EndGlobal
